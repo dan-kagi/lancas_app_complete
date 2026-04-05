@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Química Analítica Avançada - Counter Current Extraction</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="head">
+      <h1>Counter current for 2 analytes</h1>
+      <img src="../public/logo.png" alt="logo" />
+    </div>
+
+    <div id="frame">
+      <div class="infos">
+        <div class="info">
+          <p>K<sub>M</sub> = C<sub>extractant</sub> / C<sub>sample</sub>:</p>
+          <input id="KM" type="text" />
+        </div>
+        <div class="info">
+          <p>K<sub>N</sub> = C<sub>extractant</sub> / C<sub>sample</sub>:</p>
+          <input id="KN" type="text" />
+        </div>
+        <div class="info">
+          <p>mass of M (g):</p>
+          <input id="Mw" type="text" />
+        </div>
+        <div class="info">
+          <p>mass of N (g):</p>
+          <input id="Nw" type="text" />
+        </div>
+        <div class="info">
+          <p>Sample Volume (mL):</p>
+          <input id="sample_v" type="text" />
+        </div>
+        <div class="info">
+          <p>Extractant Volume (mL):</p>
+          <input id="extractant_v" type="text" />
+        </div>
+        <div class="info">
+          <p>Amount of shaking vessels:</p>
+          <input id="i_n_vessels" type="text" />
+        </div>
+        <div class="buttons">
+          <button id="n_vessels_button">Vessels</button>
+          <button id="extract">Extract</button>
+          <button id="clear">Clear</button>
+        </div>
+      </div>
+      <div id="results">
+        <!-- <div class="fractions">
+        <div id="nfraction">Number of fractions:</div>
+        <div id="total_analyte_fractions">Total analyte in the fractions:</div>
+        <table id="table_fractions">
+          <tr>
+            <th>Fraction</th>
+            <th>M / N</th>
+            <th>M / N (%)</th>
+          </tr>
+        </table>
+      </div> 
+    <div class="vessels">
+        <div id="n_extractions">Number of extractions:</div>
+        <div id="total_analyte_system">Total analyte in the system:</div>
+        <table id="table_vessels">
+          <tr>
+            <th>Vessel</th>
+            <th>M / N</th>
+            <th>M / N (%)</th>
+          </tr>
+        </table>
+      </div>  -->
+      </div>
+    </div>
+
+    <a href="../index.html">back</a>
+    <footer></footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
