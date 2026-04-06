@@ -115,7 +115,7 @@ tr {
 }
 th,
 td {
-  width: 90px;
+  width: 100px;
   text-align: center;
 }
 
@@ -158,5 +158,10 @@ footer {
   #table_vessels,
   #table_fractions {
     width: 290px;
+  }
+  th,
+  td {
+    width: 70px;
+    text-align: center;
   }
 }
