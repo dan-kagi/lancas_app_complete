@@ -39,11 +39,11 @@ button {
 
 .buttons {
   margin-top: 50px;
-  width: 360px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  gap: 10px;
 }
 button:hover {
   border: 3px solid gold;
