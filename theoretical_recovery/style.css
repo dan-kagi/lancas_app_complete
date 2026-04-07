@@ -52,6 +52,7 @@ input {
   width: 70px;
   font-weight: 700;
   text-align: center;
+  background-color: white;
 }
 button {
   height: 35px;
